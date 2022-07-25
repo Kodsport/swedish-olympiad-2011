@@ -1,0 +1,8 @@
+author: Arash Rouhani, Pär Söderhjelm, Rikard Lundmark, Jimmy Mårdell
+source: Programmeringsolympiadens skolkval 2011
+rights_owner: Programmeringsolympiaden
+license: cc by-sa
+type: scoring
+grading:
+  on_reject: grade
+  range: 0 100
