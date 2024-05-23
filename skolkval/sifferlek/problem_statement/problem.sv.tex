@@ -1,0 +1,34 @@
+\problemname{Sifferlek}
+Termen digital root för heltalet $N$ innebär att man upprepade gånger summerar talets
+ingående siffror tills summan blir $\le 10$. Till exempel för talet 34783 får man
+$$3 + 4 + 7 + 8 + 3 = 25$$
+$$2+5=7$$
+Talet 34783 har digital root 7.
+På liknande sätt definieras multiplicative digital root för heltalet N , där man istället
+upprepade gånger multiplicerar ingående siffror tills produkten blir < 10. Till exempel
+för talet 34783 får man
+$$3 \cdot 4 \cdot 7 \cdot 8 \cdot 3 = 2016$$
+$$2 \cdot 0 \cdot 1 \cdot 6 = 0$$
+Talet 34783 har multiplicative digital root 0. Hos talet 34783 är alltså multiplicative
+digital root och digital root olika.
+Skriv ett program som tar reda på hur många tal i ett givet intervall som har samma
+digital root som multiplicative digital root. Intervallet ryms alltid mellan 1 och en
+miljon.
+
+\section*{Input}
+Indatan består av två heltal $A,B$ ($1 \le A \le B \le 10^6$), det givna intervallet.
+
+\section*{Output}
+Skriv ut ett heltal: antal heltal $x$ som uppfyller att $A \leq x \leq B$ och har samma digital root som multiplicative digital root.
+
+\section*{Poängsättning}
+Din lösning kommer att testas på en mängd testfallsgrupper.
+För att få poäng för en grupp så måste du klara alla testfall i gruppen.
+
+\noindent
+\begin{tabular}{| l | l | p{12cm} |}
+  \hline
+  \textbf{Grupp} & \textbf{Poäng} & \textbf{Gränser} \\ \hline
+  $1$    & $40$          & $N \leq 10^4$  \\ \hline
+  $2$    & $60$          & Inga ytterligare begränsningar.  \\ \hline
+\end{tabular}

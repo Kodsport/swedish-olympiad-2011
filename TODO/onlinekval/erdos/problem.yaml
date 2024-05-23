@@ -1,9 +1,0 @@
-type: scoring
-source: Programmeringsolympiadens onlinekval 2011
-license: cc by-sa
-rights_owner: Programmeringsolympiaden
-author: Programmeringsolympiaden
-grading: 
-  accept_score: 20
-  on_reject: grade
-  range: 0 100
