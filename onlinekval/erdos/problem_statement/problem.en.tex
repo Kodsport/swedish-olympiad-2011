@@ -1,0 +1,28 @@
+\problemname{Erdös Numbers}
+
+The mathematician Paul Erdös is known, among other things, for being the mathematician who has written the most mathematical publications (Leonhard Euler has the most written pages, however). Erdös collaborated a great deal in his publications. Uncited sources claim that he was often temporarily staying with a colleague. During these visits, he would write a publication together with the colleague, and when the hospitality ran out, Erdös moved on to the next colleague.
+
+It is highly prestigious to have written a publication with Erdös. Those who have written a publication with Erdös are defined to have Erdös number 1. If one has written a publication with a person who has Erdös number 1, one gets Erdös number 2, and so on.
+
+Given a list of publications, output a list of all involved mathematicians' Erdös numbers.
+
+\section*{Input}
+The first line contains two integers $N$ and $M$ ($1 \le N \le 5\,000$, $1 \le M \le 40\,000$), the number of mathematicians and the number of publications, respectively.
+
+Then follow $M$ lines, each describing a publication. Each line begins with an integer, the number of mathematicians who collaborated on the publication. Then follow the mathematicians' names (separated by spaces); the order of the mathematicians does not matter. The mathematicians' names consist of 1 to 20 uppercase letters, $A - Z$. No two different mathematicians have the same name. Erdös is called \texttt{ERDOS}. Each publication involves at least 2 and at most 5 mathematicians. You may assume that the Erdös number is finite for all involved mathematicians.
+
+\section*{Output}
+Output a newline-separated list of mathematicians and their Erdös numbers. \texttt{ERDOS} should be included in this list; his Erdös number is always 0. The list should be sorted in alphabetical order.
+
+
+\section*{Scoring}
+Your solution will be tested on a set of test groups.
+To earn points for a group, you must pass all test cases in that group.
+
+\noindent
+\begin{tabular}{| l | l | p{12cm} |}
+  \hline
+  \textbf{Group} & \textbf{Points} & \textbf{Constraints} \\ \hline
+  $1$    & $40$          & $M \leq 5000$  \\ \hline
+  $2$    & $60$          & No additional constraints.  \\ \hline
+\end{tabular}
