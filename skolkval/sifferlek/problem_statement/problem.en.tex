@@ -1,0 +1,28 @@
+\problemname{Digit Game}
+The term digital root of an integer $N$ means that one repeatedly sums the digits of the number until the sum becomes $\le 10$. For example, for the number 34783 we get
+$$3 + 4 + 7 + 8 + 3 = 25$$
+$$2+5=7$$
+The number 34783 has digital root 7.
+Similarly, multiplicative digital root of an integer N is defined, where one instead repeatedly multiplies the digits until the product becomes $< 10$. For example, for the number 34783 we get
+$$3 \cdot 4 \cdot 7 \cdot 8 \cdot 3 = 2016$$
+$$2 \cdot 0 \cdot 1 \cdot 6 = 0$$
+The number 34783 has multiplicative digital root 0. For the number 34783, the multiplicative digital root and the digital root are thus different.
+Write a program that determines how many numbers in a given interval have the same digital root as multiplicative digital root. The interval always fits between 1 and one million.
+
+\section*{Input}
+The input consists of two integers $A,B$ ($1 \le A \le B \le 10^6$), the given interval.
+
+\section*{Output}
+Output a single integer: the number of integers $x$ satisfying $A \leq x \leq B$ that have the same digital root as multiplicative digital root.
+
+\section*{Scoring}
+Your solution will be tested on a set of test groups.
+To earn points for a group, you must pass all test cases in that group.
+
+\noindent
+\begin{tabular}{| l | l | p{12cm} |}
+  \hline
+  \textbf{Group} & \textbf{Points} & \textbf{Constraints} \\ \hline
+  $1$    & $40$          & $N \leq 10^4$  \\ \hline
+  $2$    & $60$          & No additional constraints.  \\ \hline
+\end{tabular}
